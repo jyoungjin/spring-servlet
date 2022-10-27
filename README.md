@@ -27,3 +27,11 @@
 >1. 어댑터 도입
 >2. 어댑터를 추가해서 프레임워크를 유연하고 확장성 있게 설계
 
+---
+#### 직접 만든 프레임워크 -> 스프링 MVC 비교
+FrontController -> DispatcherServlet 
+handlerMappingMap -> HandlerMapping 
+MyHandlerAdapter -> HandlerAdapter 
+ModelView -> ModelAndView 
+viewResolver -> ViewResolver
+MyView -> View
